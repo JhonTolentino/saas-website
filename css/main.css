@@ -55,7 +55,7 @@ p, li {
 }
 
 .hero-image {
-  background-image: url("images/skyline.png");
+  background-image: url("/images/skyline.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
