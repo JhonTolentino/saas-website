@@ -29,12 +29,12 @@ body {
 }
 
 h1, h2, h3, figcaption {
-  font-family: 'Pacifico', cursive;
-  color: #F2B91B;
+  font-family: Pacifico, cursive;
+  color: #f2b91b;
 }
 
 p, li {
-  color: #F2F0F1;
+  color: #f2f0f1;
 }
 
 .header img {
@@ -48,19 +48,6 @@ p, li {
   position: relative;
   top: 18px;
   left: 10px;
-}
-
-.header li {
-  align: right;
-}
-
-.hero-image {
-  background-image: url("/images/skyline.png");
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  height: 80vh;
 }
 
 nav {
@@ -77,4 +64,21 @@ header, footer {
   bottom: 0;
   margin: 0 auto;
   text-align: center;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+}
+
+.sign {
+    background-color: black;
+    color: #f2b91b;
+    border: 2px solid #f44336;
+    width: 100px;
+    height: 5vh;
+    text-decoration: none;
 }
